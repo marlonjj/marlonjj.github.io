@@ -1,6 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+#topbar{
+    background-color: white;
+    width:960px;
+    height: 52px;
+    margin: 0 auto;
+}
+
 h1{
+    float: left;
+    background-color: turquoise;
     color: white;
-    background-color:teal;
-    width: 200;
-    height: 75;
+    padding: 10px 10px;
+    font-size: 24pt;
+}
+
+a{
+    float: right;
+    color: darkgray;
+    font-size: 18pt;
+    margin-right: 10px;
+}
+
+body{
+    display: block;
+    background-color: slategrey;
+}
+
+#content{
+    position: relative;
+    background-color: white;
+    width: 960px;
+    height: 500px;
+    margin: 20px auto;
+}
+
+img{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    max-height: 128px;
 }
